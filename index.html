@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benjamin  Ganah | IT Specialist & Developer</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()"><i class="fa fa-times"></i></button>
+  <img id="lightbox-img" src="" alt="" />
+  <div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#hero">BKG<span>.</span></a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" style="color:var(--accent)">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-1">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#campus-watch">Campus Watch</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <div class="hero-tag"><i class="fa fa-circle me-1" style="font-size:0.5rem; color:var(--accent3)"></i> Available for opportunities</div>
+        <h1 class="hero-name">GANAH<br>BENJAMIN<br><span class="accent">KWASI</span></h1>
+        <p class="hero-role">IT Support Specialist · <span>Developer · Problem Solver</span></p>
+        <p class="hero-desc">
+          Passionate about technology and driven by impact. From configuring enterprise networks to building AI-powered security systems — I bring infrastructure and innovation together.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary-custom"><i class="fa fa-rocket"></i> View My Work</a>
+          <a href="#contact" class="btn-outline-custom"><i class="fa fa-paper-plane"></i> Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">1+</div>
+            <div class="stat-label">Year Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Key Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">2</div>
+            <div class="stat-label">Degrees</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+        <div class="hero-avatar-wrap">
+          <div class="hero-avatar-frame">
+            <img src="A.jpeg" alt="Benjamin Kwasi Ganah"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="hero-avatar-placeholder" style="display:none;">
+              <i class="fa fa-user"></i>
+              <p>Add your photo here<br>(A.jpeg / B.jpeg / C.jpeg)</p>
+            </div>
+            <div class="frame-corner tl"></div>
+            <div class="frame-corner tr"></div>
+            <div class="frame-corner bl"></div>
+            <div class="frame-corner br"></div>
+          </div>
+          <div class="hero-badge"><i class="fa fa-shield-halved me-1"></i> AI Security Builder</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-label">About Me</div>
+    <h2 class="section-title">WHO I AM</h2>
+    <div class="section-divider"></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="about-card">
+          <div class="about-icon"><i class="fa fa-network-wired"></i></div>
+          <h5>IT Infrastructure</h5>
+          <p>Hands-on experience setting up and maintaining LANs, configuring workstations, and keeping enterprise systems running smoothly at Lekma Hospital.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="about-card">
+          <div class="about-icon"><i class="fa fa-brain"></i></div>
+          <h5>AI Development</h5>
+          <p>Built an offline AI weapon detection system using CCTV feeds for my final year project — bringing machine intelligence to real-world security challenges.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="about-card">
+          <div class="about-icon"><i class="fa fa-code"></i></div>
+          <h5>Web Development</h5>
+          <p>Designed and developed personal portfolio websites. Comfortable building clean, functional frontends that showcase technical work effectively.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="about-card">
+          <div class="about-icon"><i class="fa fa-location-dot"></i></div>
+          <h5>Based in Ghana</h5>
+          <p>Operating from Accra, Ghana. Currently pursuing BSc Information Technology at Valley View University while actively growing in the tech industry.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label">Technical Skills</div>
+    <h2 class="section-title">MY TOOLKIT</h2>
+    <div class="section-divider"></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="skill-category">
+          <div class="skill-category-title"><i class="fa fa-display"></i> Operating Systems</div>
+          <span class="skill-tag">Windows 10/11</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Windows Server</span>
+          <span class="skill-tag">System Configuration</span>
+          <span class="skill-tag">OS Deployment</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="skill-category">
+          <div class="skill-category-title"><i class="fa fa-wifi"></i> Networking</div>
+          <span class="skill-tag orange">DHCP</span>
+          <span class="skill-tag orange">DNS</span>
+          <span class="skill-tag orange">LAN Setup</span>
+          <span class="skill-tag orange">Wi-Fi Troubleshooting</span>
+          <span class="skill-tag orange">Network Monitoring</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="skill-category">
+          <div class="skill-category-title"><i class="fa fa-microchip"></i> Hardware</div>
+          <span class="skill-tag green">PC Assembly</span>
+          <span class="skill-tag green">Peripheral Setup</span>
+          <span class="skill-tag green">Printer Config</span>
+          <span class="skill-tag green">Hardware Repair</span>
+          <span class="skill-tag green">Maintenance</span>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="skill-category">
+          <div class="skill-category-title"><i class="fa fa-toolbox"></i> Software & Dev</div>
+          <span class="skill-tag">Microsoft 365</span>
+          <span class="skill-tag">Remote Desktop</span>
+          <span class="skill-tag orange">Python</span>
+          <span class="skill-tag orange">AI / ML</span>
+          <span class="skill-tag green">Web Dev</span>
+          <span class="skill-tag green">Antivirus & Security</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-label">Work History</div>
+    <h2 class="section-title">EXPERIENCE</h2>
+    <div class="section-divider"></div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-date"><i class="fa fa-calendar-days me-2"></i>Oct 2023 – Oct 2024</div>
+            <div class="timeline-role">IT Support Specialist</div>
+            <div class="timeline-org">Lekma Hospital · Extra Tech &nbsp;|&nbsp; Accra, Ghana</div>
+            <div class="timeline-content">
+              <ul>
+                <li>Provided first and second-line technical support to end users, achieving a high first-call resolution rate for hardware, software, and network issues.</li>
+                <li>Installed, configured, and updated operating systems, software applications, and security patches across company workstations.</li>
+                <li>Monitored system performance and network health, proactively identifying and resolving issues before they impacted business operations.</li>
+                <li>Set up and maintained local area networks (LAN) ensuring reliable connectivity across the office environment.</li>
+                <li>Performed regular data backups and recovery procedures, safeguarding company data and minimizing downtime during system failures.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-label">What I've Built</div>
+    <h2 class="section-title">PROJECTS</h2>
+    <div class="section-divider"></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <img src="2.png" class="project-img" alt="KTU Campus Watch"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="project-img-placeholder" style="display:none;">
+            <i class="fa fa-shield-halved"></i>
+            <span>KTU Campus Watch<br>Add 2.png here</span>
+          </div>
+          <div class="project-body">
+            <div class="project-num">// 01</div>
+            <div class="project-title">KTU Campus Watch — AI Weapon Detection</div>
+            <p class="project-desc">An offline artificial intelligence system that detects weapons in real-time using CCTV footage. Built for the KTU final year project, featuring live detection, security event logging, camera management, and admin controls.</p>
+            <div class="project-tags">
+              <span class="proj-tag proj-tag-orange">Python</span>
+              <span class="proj-tag proj-tag-blue">AI / ML</span>
+              <span class="proj-tag proj-tag-blue">CCTV Integration</span>
+              <span class="proj-tag proj-tag-green">Offline System</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <div class="project-img-placeholder">
+            <i class="fa fa-desktop"></i>
+            <span>Office IT Setup Project</span>
+          </div>
+          <div class="project-body">
+            <div class="project-num">// 02</div>
+            <div class="project-title">Enterprise Office Computer Configuration</div>
+            <p class="project-desc">End-to-end setup of office computers — installed Windows 11, all required drivers, productivity applications, printers, internet access, user accounts, and antivirus software. Ensuring every workstation was production-ready from day one.</p>
+            <div class="project-tags">
+              <span class="proj-tag proj-tag-blue">Windows 11</span>
+              <span class="proj-tag proj-tag-orange">Network Config</span>
+              <span class="proj-tag proj-tag-green">IT Support</span>
+              <span class="proj-tag proj-tag-blue">Security</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="project-card">
+          <div class="project-img-placeholder" style="background: linear-gradient(135deg, #080f1a, #0e1d2e);">
+            <i class="fa fa-globe"></i>
+            <span>Personal Portfolio Website</span>
+          </div>
+          <div class="project-body">
+            <div class="project-num">// 03</div>
+            <div class="project-title">Personal Portfolio Website</div>
+            <p class="project-desc">Designed and developed a professional portfolio website to showcase projects, technical skills, and professional experience. Built with a focus on clean design and clear communication of capabilities.</p>
+            <div class="project-tags">
+              <span class="proj-tag proj-tag-orange">HTML/CSS</span>
+              <span class="proj-tag proj-tag-blue">JavaScript</span>
+              <span class="proj-tag proj-tag-green">Bootstrap</span>
+              <span class="proj-tag proj-tag-blue">Web Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CAMPUS WATCH GALLERY -->
+<section id="campus-watch">
+  <div class="container">
+    <div class="section-label">Featured Project</div>
+    <h2 class="section-title">CAMPUS WATCH</h2>
+    <div class="section-divider"></div>
+    <div class="gallery-header reveal">
+      <div class="gallery-icon"><i class="fa fa-camera"></i></div>
+      <div class="gallery-info">
+        <h3>KTU Campus Watch — AI Security System</h3>
+        <p>A full-featured offline weapon detection platform powered by computer vision. Built as a final year project at Koforidua Technical University, the system processes CCTV feeds in real-time and flags security threats — without requiring an internet connection.</p>
+      </div>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="screenshot-card" onclick="openLightbox('1.jpg', 'Login Screen')">
+          <img src="1.jpg" class="screenshot-img" alt="Login Screen"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="screenshot-placeholder" style="display:none;">
+            <i class="fa fa-lock"></i>
+            <img src="1.png" alt="Login Screen Placeholder" style="width:500px; " />
+          </div>
+          <div class="screenshot-label">
+            <strong>Login Screen</strong>
+            Secure authentication portal
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="screenshot-card" onclick="openLightbox('2.png', 'Main Dashboard / Live Detection')">
+          <img src="2.png" class="screenshot-img" alt="Dashboard"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="screenshot-placeholder" style="display:none;">
+            <i class="fa fa-gauge-high"></i>
+            <span>Main Dashboard<br>Add 2.png here</span>
+          </div>
+          <div class="screenshot-label">
+            <strong>Main Dashboard</strong>
+            Live detection interface
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="screenshot-card" onclick="openLightbox('3.png', 'Camera Management Panel')">
+          <img src="3.png" class="screenshot-img" alt="Camera Management"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="screenshot-placeholder" style="display:none;">
+            <i class="fa fa-video"></i>
+            <span>Camera Management<br>Add 3.png here</span>
+          </div>
+          <div class="screenshot-label">
+            <strong>Camera Management</strong>
+            Camera settings panel
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="screenshot-card" onclick="openLightbox('4.png', 'Team Communication / Chat Panel')">
+          <img src="4.png" class="screenshot-img" alt="Chat Panel"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="screenshot-placeholder" style="display:none;">
+            <i class="fa fa-comments"></i>
+            <span>Team Chat Panel<br>Add 4.png here</span>
+          </div>
+          <div class="screenshot-label">
+            <strong>Team Communication</strong>
+            Real-time chat panel
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="screenshot-card" onclick="openLightbox('5.png', 'Security Events Log')">
+          <img src="5.png" class="screenshot-img" alt="Security Events"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="screenshot-placeholder" style="display:none;">
+            <i class="fa fa-triangle-exclamation"></i>
+            <span>Security Events Log<br>Add 5.png here</span>
+          </div>
+          <div class="screenshot-label">
+            <strong>Security Events Log</strong>
+            Threat detection history
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="screenshot-card" onclick="openLightbox('6.png', 'User Management — Admin Panel')">
+          <img src="6.png" class="screenshot-img" alt="Admin Panel"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="screenshot-placeholder" style="display:none;">
+            <i class="fa fa-users-gear"></i>
+            <span>Admin Panel<br>Add 6.png here</span>
+          </div>
+          <div class="screenshot-label">
+            <strong>User Management</strong>
+            Admin control panel
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="section-label">Academic Background</div>
+    <h2 class="section-title">EDUCATION</h2>
+    <div class="section-divider"></div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fa fa-graduation-cap"></i></div>
+          <div class="edu-body">
+            <h5>BSc Information Technology (Top-Up)</h5>
+            <div class="edu-inst"><i class="fa fa-building-columns me-1"></i> Valley View University</div>
+            <span class="edu-status status-current"><i class="fa fa-circle-dot me-1" style="font-size:0.6rem"></i> Currently Studying</span>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fa fa-certificate"></i></div>
+          <div class="edu-body">
+            <h5>HND Computer Network Management</h5>
+            <div class="edu-inst"><i class="fa fa-building-columns me-1"></i> Koforidua Technical University</div>
+            <span class="edu-status status-done"><i class="fa fa-check me-1"></i> Completed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label">Let's Connect</div>
+    <h2 class="section-title">CONTACT</h2>
+    <div class="section-divider"></div>
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <p class="mb-4" style="color:var(--muted); font-size:0.95rem; line-height:1.8;">
+          Whether you have an opportunity, a project, or just want to connect — I'm always open to a conversation. Reach out through any of the channels below.
+        </p>
+        <div class="contact-grid reveal">
+          <a href="mailto:ganahbenjamin@gmail.com" class="contact-item">
+            <i class="fa fa-envelope"></i>
+            <div>
+              <div class="ci-label">Email</div>
+              <div class="ci-value">ganahbenjamin@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+233257055986" class="contact-item">
+            <i class="fa fa-phone"></i>
+            <div>
+              <div class="ci-label">Phone</div>
+              <div class="ci-value">+233 25 705 5986</div>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/benjamin-ganah-820047270/" target="_blank" class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <div class="ci-label">LinkedIn</div>
+              <div class="ci-value">Benjamin Ganah</div>
+            </div>
+          </a>
+          <a href="#" class="contact-item">
+            <i class="fa fa-location-dot"></i>
+            <div>
+              <div class="ci-label">Location</div>
+              <div class="ci-value">Accra, Ghana</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+      <div class="footer-name">BKG.</div>
+      <div class="footer-text">© 2024 Ganah Benjamin Kwasi · Accra, Ghana</div>
+      <div class="footer-text">Built with <span style="color:var(--accent2)">♥</span> & passion for tech</div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
